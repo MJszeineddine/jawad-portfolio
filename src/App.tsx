@@ -61,7 +61,7 @@ const jsonLd = {
   '@type': 'Person',
   name: 'Jawad Zeineddine',
   email: 'mailto:zjawad1999@gmail.com',
-  url: 'https://mjszeineddine.github.io/jawad-portfolio/',
+  url: 'https://mjszeineddine.github.io/',
   sameAs: ['https://github.com/MJszeineddine'],
   jobTitle: 'Full-Stack Engineer | White-Label Engineering Partner',
   address: {

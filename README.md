@@ -26,10 +26,10 @@ npm run build
 
 ## Deployment
 
-The repository deploys to GitHub Pages with `.github/workflows/pages.yml`. The Vite base path is configured for:
+The source repository builds a static site that is published from the account-level `MJszeineddine.github.io` hosting repository because GitHub Actions is currently blocked by the account billing state. The Vite base path is configured for:
 
 ```text
-https://mjszeineddine.github.io/jawad-portfolio/
+https://mjszeineddine.github.io/
 ```
 
 ## Confidentiality
