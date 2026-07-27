@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Jawad Zeineddine portfolio preview</title>
+  <desc id="desc">Open Graph preview for Jawad Zeineddine, Full-Stack Engineer and White-Label Engineering Partner.</desc>
+  <rect width="1200" height="630" fill="#f7f4ee"/>
+  <rect x="70" y="70" width="1060" height="490" rx="18" fill="#17191b"/>
+  <rect x="98" y="98" width="1004" height="54" rx="12" fill="#2a2d2f"/>
+  <circle cx="128" cy="125" r="8" fill="#de6b48"/>
+  <circle cx="154" cy="125" r="8" fill="#d6b35a"/>
+  <circle cx="180" cy="125" r="8" fill="#57a773"/>
+  <text x="120" y="245" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#d6b35a">WHITE-LABEL ENGINEERING PARTNER</text>
+  <text x="120" y="330" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#ffffff">Jawad Zeineddine</text>
+  <text x="120" y="392" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#a9d4cf">Full-Stack Engineer</text>
+  <text x="120" y="456" font-family="Inter, Arial, sans-serif" font-size="28" fill="#f7f4ee">Production rescue • Dashboards • APIs • E-commerce • Deployment</text>
+  <rect x="792" y="206" width="250" height="250" rx="16" fill="#245b57"/>
+  <text x="917" y="352" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="900" fill="#ffffff">JZ</text>
+</svg>
