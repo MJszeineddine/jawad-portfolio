@@ -71,7 +71,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: 'Jawad Zeineddine',
-  email: 'mailto:zjawad1999@gmail.com',
+  email: 'mailto:mjawadzeineddine@gmail.com',
   url: 'https://mjszeineddine.github.io/',
   sameAs: ['https://github.com/MJszeineddine'],
   jobTitle: 'Full-Stack Engineer | White-Label Engineering Partner',
@@ -122,7 +122,7 @@ function App() {
               expanding their permanent engineering team.
             </p>
             <div className="hero-actions">
-              <a className="button primary" href="mailto:zjawad1999@gmail.com?subject=White-label%20engineering%20requirement">
+              <a className="button primary" href="mailto:mjawadzeineddine@gmail.com?subject=White-label%20engineering%20requirement">
                 <Mail size={18} aria-hidden="true" />
                 Discuss a requirement
               </a>
@@ -259,7 +259,7 @@ function App() {
           </div>
           <form
             className="contact-form"
-            action="mailto:zjawad1999@gmail.com"
+            action="mailto:mjawadzeineddine@gmail.com"
             method="post"
             encType="text/plain"
             aria-label="Email Jawad Zeineddine"
@@ -276,8 +276,8 @@ function App() {
               <Mail size={18} aria-hidden="true" />
               Email Jawad
             </button>
-            <a className="direct-link" href="mailto:zjawad1999@gmail.com">
-              zjawad1999@gmail.com
+            <a className="direct-link" href="mailto:mjawadzeineddine@gmail.com">
+              mjawadzeineddine@gmail.com
             </a>
           </form>
         </section>
