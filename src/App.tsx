@@ -15,6 +15,7 @@ const services = [
   'Full-stack development',
   'Dashboards',
   'APIs and integrations',
+  'Webhooks and background jobs',
   'E-commerce operations',
   'Deployment and stabilization',
   'White-label overflow',
@@ -28,6 +29,8 @@ const stack = [
   'Python',
   'FastAPI',
   'PostgreSQL',
+  'Redis',
+  'BullMQ',
   'Prisma',
   'Docker',
   'GitHub Actions',
@@ -54,6 +57,14 @@ const work = [
       'Production commerce system with storefront, admin operations, products, inventory lifecycle, COD order flow, USD/LBP presentation, Arabic/English RTL, media workflows, delivery rules, backups, and deployment preparation.',
     points: ['React + TypeScript + Vite', 'Node.js + Express API', 'Prisma + PostgreSQL', 'SEO and deployment handoff'],
   },
+  {
+    title: 'Reliable Webhook Worker',
+    type: 'Webhook and background-job infrastructure',
+    href: 'https://github.com/MJszeineddine/reliable-webhook-worker',
+    details:
+      'Public TypeScript sample for signed CRM webhooks, Zod validation, Redis idempotency, BullMQ queues, retry backoff, terminal failure handling, and safe job-status visibility.',
+    points: ['Fastify + TypeScript', 'HMAC verification', 'Redis + BullMQ', 'Vitest and Docker Compose'],
+  },
 ];
 
 const jsonLd = {
@@ -76,6 +87,8 @@ const jsonLd = {
     'Python',
     'FastAPI',
     'PostgreSQL',
+    'Redis',
+    'BullMQ',
     'APIs',
     'Docker',
     'CI/CD',
