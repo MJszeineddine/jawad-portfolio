@@ -11,36 +11,44 @@ import {
 } from 'lucide-react';
 
 const services = [
-  'Production rescue',
-  'Full-stack development',
-  'Dashboards',
-  'APIs and integrations',
-  'Webhooks and background jobs',
-  'E-commerce operations',
-  'Deployment and stabilization',
-  'White-label overflow',
+  'Web scraping and crawling',
+  'Browser automation',
+  'Data extraction and normalization',
+  'APIs and data pipelines',
+  'FastAPI backend systems',
+  'PostgreSQL data workflows',
+  'Production automation',
+  'Full-stack product engineering',
 ];
 
 const stack = [
-  'React',
-  'Next.js',
-  'TypeScript',
-  'Node.js',
   'Python',
+  'Playwright',
+  'Scrapy',
+  'Selenium',
+  'BeautifulSoup',
   'FastAPI',
   'PostgreSQL',
-  'Redis',
-  'BullMQ',
-  'Prisma',
   'Docker',
+  'REST APIs',
+  'Data pipelines',
+  'TypeScript',
+  'Node.js',
+  'React',
+  'Next.js',
+  'Redis',
   'GitHub Actions',
-  'Authentication',
-  'Role-based access',
-  'RTL interfaces',
-  'Production deployment',
 ];
 
 const work = [
+  {
+    title: 'Web Scraping & Browser Automation Lab',
+    type: 'Public scraping and automation proof',
+    href: 'https://github.com/MJszeineddine/MJszeineddine/tree/main/scraping-lab',
+    details:
+      'Public engineering sample showing HTTP-first extraction, Playwright-rendered page automation, structured validation, retries, normalization, deduplication, and testable pipeline separation.',
+    points: ['Python + httpx + BeautifulSoup', 'Playwright browser automation', 'Pydantic validation', 'Production-oriented pipeline design'],
+  },
   {
     title: 'GoPilot Express',
     type: 'Delivery operations platform',
@@ -74,24 +82,25 @@ const jsonLd = {
   email: 'mailto:mjawadzeineddine@gmail.com',
   url: 'https://mjszeineddine.github.io/',
   sameAs: ['https://github.com/MJszeineddine'],
-  jobTitle: 'Full-Stack Engineer | White-Label Engineering Partner',
+  jobTitle: 'Python Web Scraping & Browser Automation Engineer',
   address: {
     '@type': 'PostalAddress',
     addressCountry: 'Lebanon',
   },
   knowsAbout: [
-    'React',
-    'Next.js',
-    'TypeScript',
-    'Node.js',
     'Python',
+    'Web scraping',
+    'Browser automation',
+    'Playwright',
+    'Scrapy',
+    'Selenium',
     'FastAPI',
     'PostgreSQL',
-    'Redis',
-    'BullMQ',
+    'Data pipelines',
     'APIs',
     'Docker',
-    'CI/CD',
+    'TypeScript',
+    'Node.js',
     'Production deployment',
   ],
 };
@@ -114,17 +123,17 @@ function App() {
       <main id="top">
         <section className="hero section-wrap">
           <div className="hero-copy">
-            <p className="eyebrow">Available for white-label agency overflow</p>
+            <p className="eyebrow">Web scraping • browser automation • production data systems</p>
             <h1>Jawad Zeineddine</h1>
-            <p className="subtitle">Full-Stack Engineer & White-Label Engineering Partner</p>
+            <p className="subtitle">Python Web Scraping & Browser Automation Engineer</p>
             <p className="hero-text">
-              I help agencies and product teams ship, repair, and stabilize production web applications without
-              expanding their permanent engineering team.
+              I build reliable scrapers, crawlers, browser automations, APIs, and data pipelines — backed by
+              production full-stack engineering when the job needs more than a one-off script.
             </p>
             <div className="hero-actions">
-              <a className="button primary" href="mailto:mjawadzeineddine@gmail.com?subject=White-label%20engineering%20requirement">
+              <a className="button primary" href="mailto:mjawadzeineddine@gmail.com?subject=Web%20scraping%20or%20automation%20project">
                 <Mail size={18} aria-hidden="true" />
-                Discuss a requirement
+                Discuss a data project
               </a>
               <a className="button secondary" href="https://github.com/MJszeineddine">
                 <Github size={18} aria-hidden="true" />
@@ -141,24 +150,24 @@ function App() {
             <div className="panel-body">
               <div>
                 <p className="panel-label">Current focus</p>
-                <h2>Production systems that agencies can hand off cleanly.</h2>
+                <h2>Reliable extraction systems that survive real-world websites.</h2>
               </div>
               <div className="status-grid">
                 <div>
                   <ShieldCheck aria-hidden="true" />
-                  <span>Confidential delivery</span>
+                  <span>100+ sites since 2020</span>
                 </div>
                 <div>
                   <Layers3 aria-hidden="true" />
-                  <span>Dashboards and APIs</span>
+                  <span>Scraping and APIs</span>
                 </div>
                 <div>
                   <Rocket aria-hidden="true" />
-                  <span>Deployment readiness</span>
+                  <span>Browser automation</span>
                 </div>
                 <div>
                   <Wrench aria-hidden="true" />
-                  <span>Production rescue</span>
+                  <span>Production delivery</span>
                 </div>
               </div>
             </div>
@@ -168,7 +177,7 @@ function App() {
         <section id="services" className="section-wrap">
           <div className="section-heading">
             <p className="eyebrow">Services</p>
-            <h2>Senior execution for scoped production work.</h2>
+            <h2>From difficult websites to structured, usable data.</h2>
           </div>
           <div className="service-grid">
             {services.map((service) => (
@@ -184,7 +193,7 @@ function App() {
           <div className="section-wrap">
             <div className="section-heading">
               <p className="eyebrow">Featured work</p>
-              <h2>Case studies written at a client-safe level.</h2>
+              <h2>Public proof across scraping, backend systems, and production engineering.</h2>
             </div>
             <div className="work-grid">
               {work.map((item) => (
@@ -229,7 +238,7 @@ function App() {
         <section className="section-wrap">
           <div className="section-heading">
             <p className="eyebrow">Technical stack</p>
-            <h2>Tools I use to ship stable systems.</h2>
+            <h2>Tools I use to extract, automate, and ship stable systems.</h2>
           </div>
           <div className="stack-list" aria-label="Technical capabilities">
             {stack.map((item) => (
@@ -255,7 +264,7 @@ function App() {
         <section id="contact" className="section-wrap contact-section">
           <div>
             <p className="eyebrow">Contact</p>
-            <h2>Send one current requirement and I’ll return a fixed white-label fulfilment quote with acceptance tests.</h2>
+            <h2>Send the target website or automation problem and I’ll define the extraction path, risks, and deliverable.</h2>
           </div>
           <form
             className="contact-form"
