@@ -241,7 +241,7 @@ function App() {
               <p className="hero-role">Jawad Zeineddine <span aria-hidden="true">/</span> AI-Native Product & Systems Engineer</p>
               <p className="hero-description">Work directly with the engineer who can architect the product, build the platform, integrate AI and data, and carry complex systems through to dependable production. Full-stack SaaS, web and mobile, operational software, and engineering rescue — connected by one accountable technical owner.</p>
               <div className="hero-actions">
-                <a className="button primary" href="#contact">Start a serious project <ArrowUpRight size={18} aria-hidden="true" /></a>
+                <a className="button primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeTtJoymcR3Zr4JdVvCq8lY1yuiyp6w_FI_hqiLG6IvEJgqDg/viewform?usp=header" target="_blank" rel="noopener noreferrer">Send your project brief <ArrowUpRight size={18} aria-hidden="true" /></a>
                 <a className="button text-button" href="#work">See engineering evidence <ArrowDownRight size={19} aria-hidden="true" /></a>
                 <a className="button text-button" href="https://www.linkedin.com/services/page/a80620347a04800082/" target="_blank" rel="noopener noreferrer">Request on LinkedIn <ArrowUpRight size={19} aria-hidden="true" /></a>
               </div>
@@ -373,6 +373,7 @@ function App() {
             <div className="contact-grid">
               <div className="contact-copy"><h2>Your next product deserves<br /><em>serious engineering.</em></h2><p>Building a platform, integrating AI into real operations, or rescuing a critical system? Describe the business objective and constraints. Work directly with the engineer responsible for the solution.</p>
                 <div className="contact-links">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTtJoymcR3Zr4JdVvCq8lY1yuiyp6w_FI_hqiLG6IvEJgqDg/viewform?usp=header" target="_blank" rel="noopener noreferrer"><ArrowUpRight size={19} aria-hidden="true" />Project inquiry form<ExternalLink size={15} aria-hidden="true" /></a>
                   <a href={'mailto:' + email}><Mail size={19} aria-hidden="true" />{email}<ExternalLink size={15} aria-hidden="true" /></a>
                   <a href="https://www.linkedin.com/services/page/a80620347a04800082/" target="_blank" rel="noopener noreferrer"><Linkedin size={19} aria-hidden="true" />Request project via LinkedIn<ExternalLink size={15} aria-hidden="true" /></a>
                   <a href="https://www.linkedin.com/in/jawad-zeineddine-2279b613a/" target="_blank" rel="noopener noreferrer"><Linkedin size={19} aria-hidden="true" />LinkedIn profile<ExternalLink size={15} aria-hidden="true" /></a>
