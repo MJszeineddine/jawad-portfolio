@@ -20,6 +20,7 @@ const fs = require('fs');
     ok(mode.name+' solutions switch tabs',await page.locator('.solution-card').count()===20 && await page.getByRole('tabpanel').getAttribute('aria-labelledby')==='tab-ai');
     await page.getByRole('tab',{name:/Full-stack, SaaS & mobile/}).click();
     ok(mode.name+' no horizontal overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),String(await page.evaluate(()=>({sw:document.documentElement.scrollWidth,width:innerWidth}))));
+    ok(mode.name+' LinkedIn buyer inquiry link',await page.locator('a[href^="https://www.linkedin.com/services/page/a80620347a04800082/"]').count()>=2);
     ok(mode.name+' contact CTA',await page.locator('a[href="#contact"]').count()>=1);
     if(mode.name==='mobile' || mode.name==='small-phone'){
       const menu=page.getByRole('button',{name:'Open navigation'});
@@ -46,6 +47,7 @@ const fs = require('fs');
     const url='http://127.0.0.1:4187/services/'+slug+'.html';
     const response=await browser.newPage();
     await response.goto(url,{waitUntil:'domcontentloaded',timeout:10000});
+    ok('LinkedIn buyer inquiry link '+slug,await response.locator('a[href^="https://www.linkedin.com/services/page/a80620347a04800082/"]').count()===2);
     ok('SEO landing page '+slug,await response.locator('h1').count()===1 && await response.locator('link[rel="canonical"]').count()===1 && await response.locator('a[href^="mailto:"]').count()>=1);
     await response.close();
   }

@@ -243,6 +243,7 @@ function App() {
               <div className="hero-actions">
                 <a className="button primary" href="#contact">Start a serious project <ArrowUpRight size={18} aria-hidden="true" /></a>
                 <a className="button text-button" href="#work">See engineering evidence <ArrowDownRight size={19} aria-hidden="true" /></a>
+                <a className="button text-button" href="https://www.linkedin.com/services/page/a80620347a04800082/" target="_blank" rel="noopener noreferrer">Request on LinkedIn <ArrowUpRight size={19} aria-hidden="true" /></a>
               </div>
             </div>
             <div className="hero-visual" aria-label="An illustration of connected software systems">
@@ -373,6 +374,7 @@ function App() {
               <div className="contact-copy"><h2>Your next product deserves<br /><em>serious engineering.</em></h2><p>Building a platform, integrating AI into real operations, or rescuing a critical system? Describe the business objective and constraints. Work directly with the engineer responsible for the solution.</p>
                 <div className="contact-links">
                   <a href={'mailto:' + email}><Mail size={19} aria-hidden="true" />{email}<ExternalLink size={15} aria-hidden="true" /></a>
+                  <a href="https://www.linkedin.com/services/page/a80620347a04800082/" target="_blank" rel="noopener noreferrer"><Linkedin size={19} aria-hidden="true" />Request project via LinkedIn<ExternalLink size={15} aria-hidden="true" /></a>
                   <a href="https://www.linkedin.com/in/jawad-zeineddine-2279b613a/" target="_blank" rel="noopener noreferrer"><Linkedin size={19} aria-hidden="true" />LinkedIn profile<ExternalLink size={15} aria-hidden="true" /></a>
                   <a href="https://github.com/MJszeineddine" target="_blank" rel="noopener noreferrer"><Github size={19} aria-hidden="true" />Engineering GitHub<ExternalLink size={15} aria-hidden="true" /></a>
                   <a href="https://www.upwork.com/freelancers/~0108bf9dfc98b94e9a" target="_blank" rel="noopener noreferrer"><ArrowUpRight size={19} aria-hidden="true" />Upwork profile<ExternalLink size={15} aria-hidden="true" /></a>
