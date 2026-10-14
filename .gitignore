@@ -14,3 +14,6 @@ coverage/
 *.tar.gz
 *.pem
 *.key
+
+qa/*.png
+qa/results.json
